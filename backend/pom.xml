@@ -11,7 +11,7 @@
 	<groupId>com.dev.springreact</groupId>
 	<artifactId>sales</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>sales</name>
 	<description>Demo project for Spring Boot</description>
 <!-- 	<properties>
@@ -83,9 +83,9 @@
 			            <configuration>
 			                <artifactItems>
 			                    <artifactItem>
-			                        <groupId>com.github.jsimone</groupId>
+			                        <groupId>com.heroku</groupId>
 			                        <artifactId>webapp-runner</artifactId>
-			                        <version>7.0.57.2</version>
+			                        <version>9.0.30.0</version>
 			                        <destFileName>webapp-runner.jar</destFileName>
 			                    </artifactItem>
 			                </artifactItems>
